@@ -1,0 +1,22 @@
+<mat-toolbar color="primary">
+  <button  mat-button [routerLink]="['']" >
+  <h1>Your Awesome Website</h1>
+  </button>
+  <span>
+    <button mat-button  [routerLink]="['login']" routerLinkActive="active" >
+      <span>
+        Login
+      </span>
+    </button>
+    <button mat-button  [routerLink]="['register']" routerLinkActive="active" >
+      <span>
+        Register
+      </span>
+    </button>
+    <button mat-button  [routerLink]="['reset-password']" routerLinkActive="active" >
+      <span>
+        Reset password
+      </span>
+    </button>
+  </span>
+</mat-toolbar>
